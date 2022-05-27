@@ -394,10 +394,13 @@ a:focus {
 
 .badan
 {
-    width: 500px;
-    margin: 5px auto;
+    width: 100%;
+    margin: 5px 20px;
+    border-radius: 15px;
     overflow: hidden;
+    background-color: #FFFFFF;
 }
+
 
 .list-produk
 {
@@ -405,9 +408,9 @@ a:focus {
   border-radius: 15px;
     padding: 0px;
     float: left;
-    width: 90px;
-    height: 90px;
-    margin: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
     background-color: #ffffff;
 }
  
@@ -420,8 +423,8 @@ a:focus {
 {
   border: transparent #000000;
   border-radius: 15px;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     display: block;
     margin-bottom: 5px;
 }
@@ -431,9 +434,9 @@ a:focus {
   border: transparent #000000;
   border-radius: 15px;
     background-color: #ffffff;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 10px;
 }
 /* end */
 
