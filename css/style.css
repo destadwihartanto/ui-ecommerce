@@ -394,7 +394,7 @@ a:focus {
 
 .badan
 {
-    width: 100%;
+    width: auto;
     margin: 5px 20px;
     border-radius: 15px;
     overflow: hidden;
@@ -410,7 +410,7 @@ a:focus {
     float: left;
     width: 60px;
     height: 60px;
-    margin: 10px;
+    margin: 10px 8px;
     background-color: #ffffff;
 }
  
@@ -444,6 +444,69 @@ a:focus {
 
 
 
+.card .footer-links {
+  margin: 10px 20px;
+  margin: auto;
+  width: auto;
+  padding: 10px 0;
+}
+
+.card .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card .footer-links ul i {
+  padding-right: 2px;
+  color: #121212;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.card .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.card .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.card .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.card .footer-links ul a:hover {
+  text-decoration: none;
+  color: #DEDEDE;
+}
+
+.card .social-links a {
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  background: #121212;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 12px;
+  border-radius: 4px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  transition: 0.3s;
+}
+
+.card .social-links a:hover {
+  background: #1da2e0;
+  color: #fff;
+  text-decoration: none;
+}
 
 
 
@@ -453,14 +516,7 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-.carda
+/* .carda
 {
     width: 100%;
     margin: 15px auto;
@@ -505,4 +561,4 @@ a:focus {
     color: crimson;
     text-align: center;
     margin-bottom: 5px;
-}
+} */
