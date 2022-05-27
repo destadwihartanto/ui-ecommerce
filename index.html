@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.15.4/css/font-awesome.min.css" /> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+    <!-- font awesome style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/stylebanner.css">
+    
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="overlay" data-overlay></div>
+  
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <form class="form-inline ">
+            <input type="search" placeholder="Search...">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>
+          <div class="container-1">
+            <ul>
+              <li><a class="nav-link scrollto" href="#about"><i class="fa fa-envelope"></i></a></li>
+              <li><a class="nav-link scrollto" href="#about"><i class="fa fa-bell"></i></a></li>
+              <li><a class="nav-link scrollto" href="#about"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Daftar Transaksi</a>
+                </li>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Kategori
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Kategori 1</a>
+                    <a class="dropdown-item" href="#">Kategori 2</a>
+                    <a class="dropdown-item" href="#">Kategori 3</a>
+                    <a class="dropdown-item" href="#">Kategori 4</a>
+                  </div>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="buy.html">Pusat Bantuan</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+
+    <!-- Saldo Koin -->
+    <div class="card" style="margin: 5px 20px;">
+      <div class="card-body" style="color: #121212;">
+        <i class="fa fa-database""></i> Saldo Koin
+        <br> 
+        <small>9000</small>
+      </div>
+    </div>
+    <!-- end -->
+    
+
+    <!-- Grid -->
+    <div class="badan">
+      <div class="list-produk">
+        <a href="">
+          <img src="images/car1.jpg" alt="Jaket Parasut">
+          <h4>Pakaian</h4>
+        </a>
+      </div>
+
+      <div class="list-produk">
+        <a href="">
+          <img src="images/food1.jpg" alt="Jaket Naruto">
+          <h4>Makanan</h4>
+        </a>
+      </div>
+
+      <div class="list-produk">
+        <a href="">
+          <img src="images/handuk1.jpg" alt="Jaket Parasut">
+          <h4>Handuk</h4>
+        </a>
+      </div>
+
+      <div class="list-produk">
+        <a href="">
+          <img src="images/mobil1.jpg" alt="Jaket Naruto">
+          <h4>Mainan</h4>
+        </a>
+      </div>
+
+      <div class="list-produk">
+        <a href="">
+          <img src="images/lainnya1.jpg" alt="Jaket Naruto">
+          <h4>Lainnya</h4>
+        </a>
+      </div>
+    </div>
+  <!-- end -->
+
+
+
+
+  <!--- NOTIFICATION TOAST-->
+  <div class="notification-toast" data-toast>
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="images/p-1.jpg" alt="Obat Kantuk" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+      <p class="toast-message">Berbelanja dengan baik</p>
+      <p class="toast-title">Obat Kantuk</p>
+      <p class="toast-meta"><time datetime="PT2M">2 Minutes</time> ago</p>
+    </div>
+  </div>
+  <!-- end -->
+
+
+
+
+
+
+  <!--- MODAL-->
+  <div class="modal" data-modal>
+    <div class="modal-close-overlay" data-modal-overlay></div>
+    <div class="modal-content">
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <!-- <div class="newsletter-img">
+        <img src="images/email.png" alt="subscribe newsletter" width="400" height="400">
+      </div> -->
+      <div class="newsletter">
+        <form action="#">
+          <div class="newsletter-header">
+            <h3 class="newsletter-title">Diskon 10%</h3>
+            <p class="newsletter-desc">
+              Hayu belanja
+            </p>
+          </div>
+          <!-- <input type="email" name="email" class="email-field" placeholder="Email Address" required> -->
+          <button type="submit" class="btn-newsletter">Belanja Sekarang</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Banner -->
+  <div class="banner">
+    <div class="container">
+      <div class="slider-container has-scrollbar">
+        <div class="slider-item">
+          <img src="images/aa1.jpg" alt="women's latest fashion sale" class="banner-img">
+          <div class="banner-content">
+            <p class="banner-subtitle">Trending Pakaian</p>
+            <h2 class="banner-title">Women's latest fashion sale</h2>
+            <p class="banner-text">Rp. 200.000</p>
+            <a href="#" class="banner-btn">Shop now</a>
+          </div>
+        </div>
+        
+        <div class="slider-item">
+          <img src="images/aa2.jpg" alt="modern sunglasses" class="banner-img">
+          <div class="banner-content">
+            <p class="banner-subtitle">Trending Handuk</p>
+            <h2 class="banner-title">Modern Handuk</h2>
+            <p class="banner-text">
+              starting at &dollar; <b>15</b>.00
+            </p>
+            <a href="#" class="banner-btn">Shop now</a>
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <img src="images/aa3.jpg" alt="new fashion summer sale" class="banner-img">
+          <div class="banner-content">
+            <p class="banner-subtitle">Sale Offer</p>
+            <h2 class="banner-title">New fashion summer sale</h2>
+            <p class="banner-text">
+              starting at &dollar; <b>29</b>.99
+            </p>
+            <a href="#" class="banner-btn">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+
+
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+      <div class="container">
+        <div class="category-item-container has-scrollbar">
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="images/p-1.jpg" alt="dress & frock" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Dress & frock</h3>
+                <p class="category-item-amount">(53)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-2.jpg" alt="winter wear" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Winter wear</h3>
+                <p class="category-item-amount">(58)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-3.jpg" alt="glasses & lens" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Glasses & lens</h3>
+                <p class="category-item-amount">(68)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-1.jpg" alt="shorts & jeans" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Shorts & jeans</h3>
+                <p class="category-item-amount">(84)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-1.jpg" alt="t-shirts" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">T-shirts</h3>
+                <p class="category-item-amount">(35)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-1.jpg" alt="jacket" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Jacket</h3>
+                <p class="category-item-amount">(16)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-1.jpg" alt="watch" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Watch</h3>
+                <p class="category-item-amount">(27)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="images/p-1.jpg" alt="hat & caps" width="30">
+            </div>
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Hat & caps</h3>
+                <p class="category-item-amount">(39)</p>
+              </div>
+              <a href="#" class="category-btn">Show all</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Carda -->
+  <!-- <div class="carda">
+    <h2>Produk Baru</h2>
+
+    <div class="product">
+      <a href="">
+        <img src="images/car1.jpg" alt="Jaket Parasut">
+
+        <h4>Pakaian</h4>
+        <h5>Rp. 170.000</h5>
+      </a>
+    </div>
+
+
+    <div class="product">
+      <a href="">
+        <img src="images/food1.jpg" alt="Jaket Naruto">
+        <h4>Makanan</h4>
+        <h5>Rp. 170.000</h5>
+      </a>
+    </div>
+
+    <div class="product">
+      <a href="">
+        <img src="images/handuk1.jpg" alt="Jaket Parasut">
+
+        <h4>Handuk</h4>
+        <h5>Rp. 170.000</h5>
+      </a>
+    </div>
+  </div> -->
+  <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>  
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+    </script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [],
+        autoplay: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      $(".owl-2").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [],
+        autoplay: true,
+  
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+    </script>
+</body>
+</html>
